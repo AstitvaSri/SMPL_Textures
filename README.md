@@ -9,5 +9,3 @@ Install dependencies
 ```pip install natsort```
 
 Run ```python SMPL_add_texture.py```
-
-Output will be saved inside ```custom_smpl_meshes``` folder.
