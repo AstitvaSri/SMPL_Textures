@@ -1,4 +1,4 @@
-# SMPL_Textures
+# SMPL Textures
 
 Add textures to any SMPL mesh
 
