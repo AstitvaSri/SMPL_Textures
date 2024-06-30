@@ -101,7 +101,7 @@ smpl_uv_mesh_path = os.path.join(ROOT,'SMPL_UV_data/SMPL_reference/smpl_uv.obj')
 smpl_custom_mesh_path = os.path.join(ROOT,'custom_smpl_meshes/0.obj')
 
 texture_files_dir = os.path.join(ROOT,'SMPL_UV_data/textures/DeepFashion/')
-texture_files = sorted(os.listdir(texture_files_dir))
+texture_files = natsort.natsorted(os.listdir(texture_files_dir))
 texture_idx = 17 # choose texture image index
 texture_file_path = f"{texture_files_dir}/{texture_files[texture_idx]}" 
 
