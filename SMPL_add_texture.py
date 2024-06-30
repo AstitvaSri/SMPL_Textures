@@ -126,3 +126,5 @@ with open(f"{save_dir}/{save_name}.mtl", 'a') as f:
 with open(f"{save_dir}/{save_name}_uv.obj", 'w') as f:
 	f.write(f"mtllib ./{save_name}.mtl\n\n")
 ZEROBS_OBJ_WRITER(save_path=f"{save_dir}/{save_name}_uv.obj", mesh_info=custom_uv_mesh, exists=True)
+
+print(f"Output saved at: {save_dir}")
